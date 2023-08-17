@@ -1,5 +1,6 @@
 import telebot
-
+from config import token, keys
+from extensions import ExchangeException, Exchange
 
 bot = telebot.TeleBot('6064515207:AAFZSocU8756qRbM6Fz11-NyJTsg0EM5fIc')
 currency = CurrencyConverter()
